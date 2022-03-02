@@ -69,10 +69,7 @@ const DetailsBox = (props: Props) => {
       </Flex>
       <Text color="white" fontSize="30px">
         {props.mode === DepositMode.DEPOSIT
-          ? `Get your yield on. Degen for a good cause.\n
-        [insert copy in terms of yield to donate passive feeder collecting yields
-          as they are being harvested to funnel into ukraine]\n
-          Join the movement: deposit, yield, support!
+          ? `Join the movement: deposit, yield, support!
           `
           : `Withdraw the exact amount of assets that you deposited`}
       </Text>
